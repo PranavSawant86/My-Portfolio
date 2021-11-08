@@ -8,14 +8,14 @@
   <body>
     <div class="container">
         <nav>
-      <ul>
+      <ul> id="menuList">
               <li><a href="">About</a></li>
               <li><a href="">Contact</a></li>
               <li><a href="">Portfolio</a></li>
        </ul>
-       <img src="cart.png" class="cart-icon">
-</nav>
-    <div class="text-box">
+            </nav>
+       <img src="menu.png" class="menu-icon" onclick="togglemenu()">
+        <div class="text-box">
       <p>I'M</p>
       <h1>PRANAV</h1>
       <h3>Mechanical Engineer</h3>
@@ -31,7 +31,20 @@
         <a href="https://www.facebook.com/Pranav.sawant8301/"><img src="facebook.png"></a>
         <a href="https://instagram.com/pranav_sawant08?utm_medium=copy_link"><img src="instagram.png"></a>
     </div>
+        <script>
+      var menuList = document.getElementById("menuList");
 
+      menuList.style.maxHeight = "0px";
+
+      function togglemenu(){
+
+        if(menuList.style.maxHeight == "0px")
+          {
+            menuList.style.maxHeight = "100px";
+          }
+         else
+          {
+            menuList.style.maxHeight = "0px";
         </div>
   </body>
 </html>
