@@ -154,7 +154,7 @@ a.active,a:hover{
       bottom: 8%;
       }
       .text-box p{
-        font-size: 20px;
+        font-size: 30px;
         font-weight: 100;
         margin-left: 10px;
       }
@@ -170,7 +170,7 @@ a.active,a:hover{
         animation: back 20s linear infinite;
       }
       .text-box h3{
-      font-size: 20px;
+      font-size: 30px;
       font-weight: 100;
       margin-left: 10px;
       }
