@@ -4,39 +4,74 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My portfolio</title>
     <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" media="screen and (max-width:1100px)" href="tablet.css">
+    <link rel="stylesheet" media="screen and (max-width:700px)" href="phone.css">
   </head>
   <body>
-    <div class="container">
-      <nav>
-          <input type="checkbox" id="check">
-          <label for="check" class="checkbtn">
-            <i class="fa fa-bars"></i>
-          </label>
+    <div class=container>
+    <nav class="navbar">
         <ul>
-        <li><a class="active" href="#">Home</a></li>
-        <li><a href="#">Portfolio</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#Portfolio">Portfolio</a></li>
+        <li><a href="#About">About</a></li>
+        <li><a href="#Contact">Contact</a></li>
       </ul>
       </nav>
     </div>
-
+    </div>
     <div class="text-box">
       <p>I'M</p>
       <h1>PRANAV</h1>
       <h3>Mechanical Engineer</h3>
 
         <div class="row">
-          <a href="">Explore My Portfolio</a>
-          <a href="">Connect With Me <span>&#x27F6;</span></a>
+          <a href="#Portfolio">Explore My Portfolio</a>
+          <a href="#Contact">Connect With Me <span>&#x27F6;</span></a>
           <span>You Can Explore More About My Portfolio<br> And Personal Life Experience Here.</span>
           </div>
+
       </div>
       <div class="social-icons">
-        <a href="https://www.linkedin.com/feed/"><img src="linkedin.png"></a>
-        <a href="https://www.facebook.com/Pranav.sawant8301/"><img src="facebook.png"></a>
-        <a href="https://instagram.com/pranav_sawant08?utm_medium=copy_link"><img src="instagram.png"></a>
+        <a href="https://www.linkedin.com/feed/"><img src="images/linkedin.png"></a>
+        <a href="https://www.facebook.com/Pranav.sawant8301/"><img src="images/facebook.png"></a>
+        <a href="https://instagram.com/pranav_sawant08?utm_medium=copy_link"><img src="images/instagram.png"></a>
     </div>
+
+    <section id="Portfolio">
+      <h1 class="heading">Portfolio</h1>
+      <div class="columns">
+        <div class="box">
+          <h2>Secondary School</h2>
+        <p>Nandadeep Vidyalaya,Goregaon Mumbai. SSC board 75.20%  </p>
+        </div>
+        <div class="box">
+          <h2>Diploma in Mechanical Engineering</h2>
+        <p>Viva college of Diploma Engineering and Technology,Mumbai. Msbte board 70.59%</p>
+        </div>
+        <div class="box">
+          <h2>Bachelor in Mechanical Engineering</h2>
+        <p>Indira college of engineering and Management,Pune. Savitribai Phule Pune University 83.95% (till 3rd year)</p>
+        </div>
+        <div class="box">
+          <h2>Courses</h2>
+        <p>Complete Course in AutoCaD:2D & 3D. Udemy(online)<br><br>Product Design And Development. NPTEL 77%(Silver Elite)</p>
+        </div>
+      </section>
+     
+      <section id="About">
+          <h1 class="heading">About Me</h1>
+          <div class="About"></div>
+          <div class="name">
+            <h2>I'm Pranav Sawant</h2>
+            <p><br>I’m a Mechanical Engineer with aim of Seeking an entry level opportunity with an esteemed organization where I can utilize my skills and enhance learning in the field of work. I am fresher and have no experience in any company. I am passionate about my work. People find me to be an upbeat, self-motivated team player with good communication skills. My strength is that I can adopt quickly to any environment. Apart from my core knowledge I also know html, css languages and currently pursuing python lang. My hobbies are playing sports, sketching, travelling.</p>
+          </div>
+      </section>
+    <section id="Contact">
+      <h1 class="heading">Contact</h1>
+      <h3>Contact no: +91 87797758749</h3>
+      <h5>Email: pranav.sawant2001@gmail.com</h5>
+    </section>
+    </div>
+    </section>
     </body>
 </html>
